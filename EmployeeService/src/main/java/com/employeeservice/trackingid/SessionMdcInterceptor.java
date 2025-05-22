@@ -14,7 +14,7 @@ import java.util.UUID;
 public class SessionMdcInterceptor implements HandlerInterceptor {
 
     private static final String SESSION_ID_KEY = "sessionTxId";
-    private static final String MDC_KEY = "txId";
+    private static final String MDC_KEY = "trackingId";
 
     @Override
     public boolean preHandle(HttpServletRequest request, 
